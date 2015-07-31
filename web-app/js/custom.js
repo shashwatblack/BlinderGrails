@@ -4,7 +4,7 @@ $(document).ready(function() {
 	  var selText = $(this).text();
 	  //$(this).parents('.form-group').find('button[data-toggle="dropdown"]').html(selText+' <span class="caret"></span>');
 	  $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
-      //${Input1} = $selText;
+      //${Input1} = $selText; //commented
         $(grailsApplication).config().testValue
       alert("Value: " + ${grailsApplication.config.testValue})
 	});
